@@ -1,0 +1,30 @@
+== READMoi
+
+______________________________________________________________
+
+Ok the commands to scrape are:
+
+rake fetch_centrallondon
+rake fetch_exeter
+
+(remember to first rake db:migrate)
+
+______________________________________________________________
+
+A lot of them have pieces of data missing, so expect half of them to have no prices, etc.
+They will all have names, ages and pictures though.
+
+It is up to you if you want to add the survey stuff now.
+
+And I have just noticed some of them are disgusting, I had a shock when I saw Emily's profile in the Exeter section (in b4 shes browsing github and sees this).
+I guess we will just delete them manually.
+
+______________________________________________________________
+
+The London section will have sub-titles such as "Central London", "West London" etc to divide up all the different areas, but still keep it on one "London" page.
+So you can add them in too.
+The London page will basically be a special case, the Exeter page will just have the generic design that all other pages will have.
+
+I felt like I had loads of stuff to say in the readme while I was programming some booleans, but now I forgot it all.
+
+Oh yeah and remember to rake db:reset before re-scraping any areas.

@@ -1,0 +1,35 @@
+<h1>Escorts#show</h1>
+<p>Find me in app/views/escorts/show.html.erb</p>
+<%= link_to 'View more pictures...', escort_pictures_path(@escort) %>
+<%= @escort.name %>
+
+<img src="<%= "http://escortdirectory-uk.com/" + @escort.pictures.first %>", alt="<%= @escort.name %>">
+
+Phone number
+<%= @escort.phone %>
+
+
+Age, height and "measurements"
+<%= @escort.age %>
+<%= @escort.height %>
+<%= @escort.measurements %>
+
+Bio
+<%= @escort.bio %>
+
+
+"Interests"
+<% @escort.interests.each do |interest| %>
+	<%= interest %>
+<% end %>
+
+
+
+Prices
+Incall / Outcall
+<%== @escort.firstPriceRow %>
+<%== @escort.secondPriceRow %>
+<%== @escort.thirdPriceRow %>
+
+
+<h1>Check the view for this page and it will all make sense</h1>

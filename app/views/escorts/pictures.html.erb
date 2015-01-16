@@ -1,0 +1,7 @@
+<h1>Escorts#pictures</h1>
+<p>Find me in app/views/escorts/pictures.html.erb</p>
+
+<%= @escort.name %>
+<% @pictures.each do |picture| %>
+	<img src="<%= "http://escortdirectory-uk.com/" + picture %>", alt="<%= @escort.name %>">
+<% end %>
