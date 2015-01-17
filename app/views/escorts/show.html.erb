@@ -1,0 +1,43 @@
+    <div class="contentmain">
+      <div class="row skylinebg content">
+        <h1 class="citytitle"><%= @escort.name %></h1>
+        <div class="row padding2v">
+        	<div class="large-3 columns listingpage">
+        		<img class="escortpicture" src="<%= "http://escortdirectory-uk.com/" + @escort.pictures.first %>", alt="<%= @escort.name %>">
+        	</div>
+        	<div class="large-3 columns listingpage showbiobg">
+    				<p class="margin0b padding05v content1 text-center generalinfo"><span class="escortprefix">AGE: </span><%= @escort.age %></p>
+    				<p class="margin0b padding05v content1 text-center generalinfo"><span class="escortprefix">PHONE: </span><% if @escort.phone.blank? %> N/A <% else %><%= @escort.phone %></p> <% end %>
+    				<p class="margin0b padding05v content1 text-center generalinfo"><span class="escortprefix">HEIGHT: </span><% if @escort.height.blank? %> N/A <% else %><%= @escort.height %></p> <% end %>
+    				<p class="margin0b padding05v content1 text-center generalinfo"><span class="escortprefix">MEASUREMENTS: </span><% if @escort.measurements.blank? %> N/A <% else %><%= @escort.measurements %></p> <% end %>
+        	</div>
+        	<div class="large-6 columns padding1v content listingpage showbiobg padding1v">
+        		<p class="font09"><%= @escort.bio %><%== @escort.firstPriceRow %>
+						<%== @escort.secondPriceRow %>
+						<%== @escort.thirdPriceRow %>
+						</p>
+        	</div>
+        </div>
+        <p class="text-center padding2v"><%= link_to escort_pictures_path(@escort) do %><span class="privategallerybutton"><span class="font12">V</span>iew <%= @escort.name %>'s Uncensored Private Galler<span class="font12">y</span></span><% end %></p>
+      </div>
+    </div>
+
+
+
+        <script type="text/javascript">
+            (function() {
+
+                /* matchHeight example */
+
+                $(function() {
+
+
+                  $(function() {
+                    $('.listingpage').matchHeight();
+                  });
+
+
+                });
+
+            })();
+        </script>

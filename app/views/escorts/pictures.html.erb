@@ -1,0 +1,32 @@
+    <div class="contentmain">
+      <div class="row skylinebg content">
+        <h1 class="citytitle"><%= @escort.name %></h1>
+        <div class="row padding2v">
+        	<div class="large-12 columns">
+						<% @pictures.each do |picture| %>
+							<img src="<%= "http://escortdirectory-uk.com/" + picture %>", alt="<%= @escort.name %>">
+						<% end %>
+        	</div>
+        </div>
+      </div>
+    </div>
+
+
+
+        <script type="text/javascript">
+            (function() {
+
+                /* matchHeight example */
+
+                $(function() {
+
+
+                  $(function() {
+                    $('.listingpage').matchHeight();
+                  });
+
+
+                });
+
+            })();
+        </script>
