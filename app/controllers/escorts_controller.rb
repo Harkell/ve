@@ -1,5 +1,6 @@
 class EscortsController < ApplicationController
   before_action :set_escort, only: [:show]
+  before_action :areas
 
   def show
   end

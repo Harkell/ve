@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  match '/' => 'areas#show', :as => "/london", :constraints => { :subdomain => 'london' }, via: :get
-  match '/' => 'areas#show', :as => "/exeter", :constraints => { :subdomain => 'exeter' }, via: :get
+  match '/' => 'areas#show', :constraints => { :subdomain => true }, via: :get
+
 
   get 'home/index'
 
@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   resources :areas, only: [:index, :show]
 
-  resources :london, only: [:show]
+  #resources :london, only: [:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

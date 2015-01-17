@@ -17,10 +17,10 @@
           </div>
           <div class="row navbg">
             <div class="large-6 medium-6 columns logocontainer">
-              <%= link_to root_path do %><%= image_tag('logo.png') %><% end %>
+              <%= link_to root_url(:subdomain => false) do %><%= image_tag('logo.png') %><% end %>
             </div>
             <div class="large-2 medium-2 columns text-center padding18">
-              <%= link_to root_path do %><p class="margin0b navtext"><span class="fontswitch1">H</span>om<span class="fontswitch1">e</span></p><% end %>
+              <%= link_to root_url(:subdomain => false) do %><p class="margin0b navtext"><span class="fontswitch1">H</span>om<span class="fontswitch1">e</span></p><% end %>
             </div>
             <div class="large-2 medium-2 columns text-center padding18">
               <p class="margin0b navtext"><span class="fontswitch1">S</span>torie<span class="fontswitch1">S</span></p>
@@ -38,7 +38,9 @@
 									options[this.elements[0].selectedIndex]. value,'_top'); return(false)">
 									<select class="margin0b locationselect" NAME="service" SIZE="1" width="30" onChange="window.open(this.options[this.selectedIndex].value,'_top')">
 									<option value="" SELECTED>Select your location</option>
-									<option value="http://google.com">Exeter</option>
+                  <%= @areas.each do |area| %>
+									   <option value="http://<%= area.name %>.lvh.me:3000/"><%= area.name %></option>
+                  <% end %>
 									</select>
 								</form>
             </div>

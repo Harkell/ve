@@ -1,10 +1,10 @@
-task :fetch_exeter => :environment do 
+task :fetch_westlondon => :environment do 
 require 'rubygems'	
 require 'nokogiri'
 require 'mechanize'
   agent = Mechanize.new
 
-  page = agent.get("http://exeter.escortdirectory-uk.com/")
+  page = agent.get("http://london.escortdirectory-uk.com/west-london")
 
   interests = Array.new
   pictures = Array.new
@@ -73,13 +73,13 @@ require 'mechanize'
     end
 
     Escort.create(name: name, phone: phone, bio: bio, age: age, height: height, measurements: measurements, interests: interests,
-     pictures: pictures, firstPriceRow: pricesOne, secondPriceRow: pricesTwo, thirdPriceRow: pricesThree, area_id: "35")
+     pictures: pictures, firstPriceRow: pricesOne, secondPriceRow: pricesTwo, thirdPriceRow: pricesThree, area_id: "1")
 
     interests = Array.new
     pictures = Array.new
   end
 
   puts "------------------------------------"
-  puts "Rake of Exeter complete."
+  puts "Rake of West London complete."
 
 end

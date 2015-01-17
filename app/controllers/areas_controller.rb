@@ -1,4 +1,6 @@
 class AreasController < ApplicationController
+  before_action :areas
+  
   def index
   end
 
