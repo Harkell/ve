@@ -18,7 +18,7 @@
 						</p>
         	</div>
         </div>
-        <p class="text-center padding2v"><%= link_to escort_pictures_path(@escort) do %><span class="privategallerybutton"><span class="font12">V</span>iew <%= @escort.name %>'s Uncensored Private Galler<span class="font12">y</span></span><% end %></p>
+        <p class="text-center padding2v"><%= link_to escort_pictures_path(@escort), data: { no_turbolink: true } do %><span class="privategallerybutton"><span class="font12">V</span>iew <%= @escort.name %>'s Uncensored Private Galler<span class="font12">y</span></span><% end %></p>
       </div>
     </div>
 
