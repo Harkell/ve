@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verified Escorts | UK</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	    <div class="row bg">
+      <div class="row">
+        <div class="large-12 medium-12 columns diagonalcontainer contentreset">
+          <div class="diagonalhead">
+          </div>
+          <div class="row navbg">
+            <div class="large-6 medium-6 columns logocontainer">
+              <%= link_to root_url(:subdomain => false) do %><%= image_tag('logo.png') %><% end %>
+            </div>
+            <div class="large-2 medium-2 columns text-center padding18">
+              <%= link_to root_url(:subdomain => false) do %><p class="margin0b navtext"><span class="fontswitch1">H</span>om<span class="fontswitch1">e</span></p><% end %>
+            </div>
+            <div class="large-2 medium-2 columns text-center padding18">
+              <p class="margin0b navtext"><span class="fontswitch1">S</span>torie<span class="fontswitch1">S</span></p>
+            </div>
+            <div class="large-2 medium-2 columns text-center padding18">
+              <p class="margin0b navtext"><span class="fontswitch1">V</span>ideo<span class="fontswitch1">s</span></p>
+            </div>
+          </div>
+          <div class="row selectboxbg">
+            <div class="large-4 medium-4 columns">
+              <br>
+            </div>
+            <div class="large-4 medium-4 columns text-center">
+                <form METHOD="POST" onsubmit="window.open(this.elements[0].
+									options[this.elements[0].selectedIndex]. value,'_top'); return(false)">
+									<select class="margin0b locationselect" NAME="service" SIZE="1" width="30" onChange="window.open(this.options[this.selectedIndex].value,'_top')">
+									<option value="" SELECTED>Select your location</option>
+                  <%= @areas.each do |area| %>
+									   <option value="<%= root_url(:subdomain => area.name) %>"><%= area.name %></option>
+                  <% end %>
+									</select>
+								</form>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<%= yield %>
+ 
+
+  </body>
+</html>
