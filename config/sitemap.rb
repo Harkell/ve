@@ -109,3 +109,5 @@ SitemapGenerator::Sitemap.create do
     add escort_path(escort), :lastmod => escort.updated_at, :priority => 1
   end
 end
+
+SitemapGenerator::Sitemap.ping_search_engines # Not needed if you use the rake tasks
