@@ -39,7 +39,7 @@
 									<select class="margin0b locationselect" NAME="service" SIZE="1" width="30" onChange="window.open(this.options[this.selectedIndex].value,'_top')">
 									<option value="" SELECTED>Select your location</option>
                   <%= @areas.each do |area| %>
-									   <option value="http://<%= area.name %>.lvh.me:3000/"><%= area.name %></option>
+									   <option value="<%= root_url(:subdomain => area.name) %>"><%= area.name %></option>
                   <% end %>
 									</select>
 								</form>

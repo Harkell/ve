@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-  match '/' => 'areas#show', :constraints => { :subdomain => true }, via: :get
+  constraints subdomain: 'www' do
+    get ':any', to: redirect(subdomain: nil, path: '/%{any}'), any: /.*/
+  end
+
+  match '' => 'areas#show', :constraints => { :subdomain => true }, via: :get
 
 
   get 'home/index'
