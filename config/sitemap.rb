@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sitemap_generator'
 
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "https://verified-escorts.co.uk"
+SitemapGenerator::Sitemap.default_host = "https://www.verified-escorts.co.uk"
  
 # pick a place safe to write the files
 SitemapGenerator::Sitemap.public_path = 'tmp/'
@@ -15,6 +15,7 @@ SitemapGenerator::Sitemap.sitemaps_host = "http://#{ENV['FOG_DIRECTORY']}.s3.ama
  
 # pick a namespace within your bucket to organize your maps
 SitemapGenerator::Sitemap.sitemaps_path = 'sitemaps/'
+
 SitemapGenerator::Sitemap.create do
   add root_path, :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
   add root_url(:subdomain => "london"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
