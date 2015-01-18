@@ -106,6 +106,6 @@ SitemapGenerator::Sitemap.create do
 
 
   Escort.all.each do |escort|
-    add listing_path(listing), :lastmod => listing.updated_at, :priority => 1
+    add escort_path(escort), :lastmod => escort.updated_at, :priority => 1
   end
 end
