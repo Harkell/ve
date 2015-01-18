@@ -34,13 +34,13 @@ require 'mechanize'
 
 
     unless thread_page.parser.css('div.rates tr')[1] == nil
-      pricesOne = thread_page.parser.css('div.rates tr')[1].to_s
+      pricesOne = thread_page.parser.css('div.rates tr')[1].to_s.encode('UTF-8').encode('UTF-8')
     end
     unless thread_page.parser.css('div.rates tr')[2] == nil
-      pricesTwo = thread_page.parser.css('div.rates tr')[2].to_s
+      pricesTwo = thread_page.parser.css('div.rates tr')[2].to_s.encode('UTF-8')
     end
     unless thread_page.parser.css('div.rates tr')[3] == nil
-      pricesThree = thread_page.parser.css('div.rates tr')[3].to_s
+      pricesThree = thread_page.parser.css('div.rates tr')[3].to_s.encode('UTF-8')
     end
 
 
