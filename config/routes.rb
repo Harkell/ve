@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'sitemaps/show'
+
   constraints subdomain: 'www' do
     get ':any', to: redirect(subdomain: nil, path: '/%{any}'), any: /.*/
   end
@@ -17,6 +19,10 @@ Rails.application.routes.draw do
   end
 
   resources :areas, only: [:index, :show]
+
+  get '/sitemap.xml.gz', to: 'sitemaps#show'
+  
+
 
   #resources :london, only: [:show]
 
