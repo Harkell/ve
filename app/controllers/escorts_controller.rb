@@ -1,18 +1,16 @@
 class EscortsController < ApplicationController
-  before_action :set_escort, only: [:show]
   before_action :areas
 
   def show
+    @escort = Escort.find(params[:id])
+    @areaTitle = Area.find(@escort.area_id).name
   end
 
   def pictures
   	@escort = Escort.find(params[:escort_id])
+    @areaTitle = Area.find(@escort.area_id).name
   	@pictures = @escort.pictures
   end
 
-  private
-  def set_escort
-  	@escort = Escort.find(params[:id])
-  end
 
 end
