@@ -18,91 +18,91 @@ SitemapGenerator::Sitemap.sitemaps_path = 'sitemaps/'
 
 SitemapGenerator::Sitemap.create do
   add root_path, :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add "https://london.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "aberdeen"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "armagh"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "ashford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "barnsley"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bedford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "belfast"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "birmingham"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "blackpool"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bolton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bournemouth"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bradford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "brighton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bristol"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "bury"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "cambridge"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "canterbury"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "cardiff"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "carlisle"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "chelmsford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "chester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "chichester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "colchester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "coventry"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "crawley"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "croydon"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "dartford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "derby"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "doncaster"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "dover"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "dundee"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "durham"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "eastbourne"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "edinburgh"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "exeter"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "falkirk"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "gateshead"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "glasgow"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "gloucester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "grimsby"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "guildford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "harrogate"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "hastings"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "hereford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "high-wycome"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "hounslow"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "huddersfield"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "hull"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "inverness"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "ipswich"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "lancaster"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "leeds"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "leicester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "liverpool"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "luton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "manchester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "middlesbrough"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "milton-keynes"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "newcastle"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "northampton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "norwich"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "nottingham"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "oxford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "peterborough"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "plymouth"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "poole"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "portsmouth"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "preston"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "reading"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "salford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "sheffield"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "slough"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "southampton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "southend-on-sea"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "stoke-on-trent"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "sunderland"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "swansea"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "tunbridge-wells"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "wakefield"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "walsall"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "watford"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "wigan"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "wolverhampton"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "worcester"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
-  add root_path(:subdomain => "york"), :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://london.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://aberdeen.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://armagh.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://ashford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://barnsley.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bedford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://belfast.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://birmingham.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://blackpool.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bolton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bournemouth.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bradford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://brighton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bristol.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://bury.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://cambridge.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://canterbury.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://cardiff.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://carlisle.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://chelmsford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://chester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://chichester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://colchester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://coventry.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://crawley.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://croydon.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://dartford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://derby.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://doncaster.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://dover.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://dundee.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://durham.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://eastbourne.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://edinburgh.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://exeter.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://falkirk.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://gateshead.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://glasgow.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://gloucester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://grimsby.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://guildford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://harrogate.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://hastings.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://hereford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://high-wycome.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://hounslow.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://huddersfield.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://hull.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://inverness.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://ipswich.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://lancaster.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://leeds.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://leicester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://liverpool.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://luton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://manchester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://middlesbrough.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://milton-keynes.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://newcastle.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://northampton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://norwich.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://nottingham.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://oxford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://peterborough.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://plymouth.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://poole.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://portsmouth.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://preston.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://reading.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://salford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://sheffield.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://slough.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://southampton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://southend-on-sea.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://stoke-on-trent.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://sunderland.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://swansea.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://tunbridge-wells.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://wakefield.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://walsall.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://watford.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://wigan.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://wolverhampton.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://worcester.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
+  add "http://york.verified-escorts.co.uk/", :lastmod => Time.now, :changefreq => 'weekly', :priority => 1
 
 
   Escort.all.each do |escort|
